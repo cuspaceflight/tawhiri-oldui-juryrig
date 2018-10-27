@@ -1,10 +1,10 @@
 <?php
 
 // Enter the Google Maps API for your site
-define("GMAPS_API_KEY", "ABQIAAAA4T7AS90KUqGrNPOsl6eyCBS4mbmQPYGFaQoYTVDm_qb3IIB-WBSwfZE_KhJy2GpxCqBbVm7PoSKM9Q");
+define("GMAPS_API_KEY", "AIzaSyD5mW6bdyvChDy-WM_EUI5_sLBvIxidJbE");
 
 // Who should we email about errors etc?
-define("ADMIN_EMAIL", "jon@hexoc.com");
+define("ADMIN_EMAIL", "adam@adamgreig.com");
 
 define("LOCATION_SAVE_ENABLE", true);
 
