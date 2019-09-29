@@ -25,9 +25,9 @@ $time = time() + 3600;
 <head>
 <title>CUSF Landing Predictor 2.5</title>
 <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
-<script type="text/javascript" src="http://www.google.com/jsapi?key=<?php echo GMAPS_API_KEY; ?>">
+<script type="text/javascript" src="https://www.google.com/jsapi?key=<?php echo GMAPS_API_KEY; ?>">
 </script>
-<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=<?php echo GMAPS_API_KEY; ?>"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=<?php echo GMAPS_API_KEY; ?>"></script>
 <link href="css/pred.css" type="text/css" rel="stylesheet" />
 <link href="css/calc.css" type="text/css" rel="stylesheet" />
 <link rel="stylesheet" href="css/tipsy.css" type="text/css" />
