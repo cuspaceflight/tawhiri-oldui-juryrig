@@ -32,11 +32,14 @@ $time = time() + 3600;
 <link href="css/calc.css" type="text/css" rel="stylesheet" />
 <link rel="stylesheet" href="css/tipsy.css" type="text/css" />
 <link href="css/cupertino/jquery-ui-1.8.1.custom.css" type="text/css" rel="stylesheet">
+<!--
 <script type="text/javascript">
 // Load jquery and jqueryui before loading jquery.form.js later
 google.load("jquery", "1.4.2");
 google.load("jqueryui", "1.8.1");
-</script>
+</script>-->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.1/jquery-ui.min.js"></script>
 <script src="js/jquery/jquery.form.js" type="text/javascript"></script>
 <script src="js/jquery/jquery.jookie.js" type="text/javascript"></script>
 <script src="js/jquery/jquery.tipsy.js" type="text/javascript"></script>

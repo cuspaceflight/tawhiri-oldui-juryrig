@@ -24,6 +24,11 @@
         "latitude"  :   -35.0765,
         "longitude" :   138.8569
     },
+    "Auburn": {
+	"altitude": 330,
+	"latitude": -34.011,
+	"longitude": 138.7002
+    },
     "Cookstown": {
         "altitude"  :   60,
         "latitude"  :   54.632162,

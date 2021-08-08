@@ -89,7 +89,8 @@ def run_prediction(prediction_time, predictions_dir, scenario_template,
         # catch the race between someone re-running a scenario and the download daemon swapping in a new dataset
         if not os.path.exists(dataset_filename):
             raise DatasetRaceError
-        raise RuntimeError('Prediction process %s returned error code: %s.' % (pred_uuid, pred_process.returncode))
+        logging.info('Prediction process %s returned error code: %s.' % (pred_uuid, pred_process.returncode))
+        # raise RuntimeError('Prediction process %s returned error code: %s.' % (pred_uuid, pred_process.returncode))
     output_file.close()
     logging_file.close()
 
